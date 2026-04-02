@@ -1,0 +1,6 @@
+name: AveMaria
+version: '1.0'
+main: me.zink.avemaria.AveMaria
+api-version: '1.21'
+authors: [ Zerog228, ErRoR_SINNER, eric_sx ]
+description: The new Era of TetsMod!
