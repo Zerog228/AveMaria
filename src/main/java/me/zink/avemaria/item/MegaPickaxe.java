@@ -1,6 +1,7 @@
 package me.zink.avemaria.item;
 
 import io.github.zerog228.usefless.item.CItem;
+import io.github.zerog228.usefless.item.CStackCreator;
 import io.papermc.paper.datacomponent.item.Tool;
 import io.papermc.paper.registry.RegistryAccess;
 import io.papermc.paper.registry.RegistryKey;
@@ -24,7 +25,7 @@ public class MegaPickaxe extends CItem {
     //leather_horse_armor[dyed_color={rgb:3355443,show_in_tooltip:false},minecraft:item_model=bone] 1
     @Override
     public ItemStack initItem(String itemKey) {
-        return MCStackCreator.builder(Material.NETHERITE_PICKAXE)
+        return CStackCreator.builder(Material.NETHERITE_PICKAXE)
                 .maxStackSize(1)
                 .name("<red>Big Pickaxe")
                 //RegistrySet.keySet(RegistryKey.BLOCK, TypedKey.create(RegistryKey.BLOCK, Tag.MINEABLE_PICKAXE.key())),

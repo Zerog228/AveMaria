@@ -1,6 +1,7 @@
 package me.zink.avemaria.item;
 
 import io.github.zerog228.usefless.item.CItem;
+import io.github.zerog228.usefless.item.CStackCreator;
 import io.papermc.paper.datacomponent.item.Tool;
 import io.papermc.paper.registry.RegistryAccess;
 import io.papermc.paper.registry.RegistryKey;
@@ -25,7 +26,7 @@ public class MegaAxe extends CItem {
 
     @Override
     public ItemStack initItem(String itemKey) {
-        return MCStackCreator.builder(Material.NETHERITE_AXE)
+        return CStackCreator.builder(Material.NETHERITE_AXE)
                 .maxStackSize(1)
                 .name("<red>Big Axe")
                 .tool(Tool.tool().defaultMiningSpeed(3f).damagePerBlock(3).addRule(
