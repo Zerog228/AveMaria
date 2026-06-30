@@ -6,7 +6,6 @@ import io.papermc.paper.datacomponent.item.Tool;
 import io.papermc.paper.registry.RegistryAccess;
 import io.papermc.paper.registry.RegistryKey;
 import io.papermc.paper.registry.keys.tags.BlockTypeTagKeys;
-import me.zink.avemaria.util.MCStackCreator;
 import net.kyori.adventure.util.TriState;
 import org.bukkit.Material;
 import org.bukkit.Tag;
